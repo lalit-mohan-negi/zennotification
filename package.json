@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-zennotification",
+  "version": "0.0.1",
+  "description": "Lalit Plugin",
+  "cordova": {
+    "id": "cordova-plugin-zennotification",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalit-mohan-negi/zennotification.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Lalit",
+  "license": "007",
+  "bugs": {
+    "url": "https://github.com/lalit-mohan-negi/zennotification/issues"
+  },
+  "homepage": "https://github.com/lalit-mohan-negi/zennotification#readme"
+}
