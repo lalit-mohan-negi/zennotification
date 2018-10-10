@@ -18,6 +18,10 @@
 
     if (echo != nil && [echo length] > 0) {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:echo];
+ 
+        [ZDKZendesk initializeWithAppId:"appId" clientId:"clientId" zendeskUrl:"url"];
+        [ZDKSupport initializeWithZendesk:[ZDKZendesk instance]];
+
     } else {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
     }
